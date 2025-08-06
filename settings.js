@@ -30,7 +30,7 @@ LINK_WHITELIST: "youtube.com,github.com",
         AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
 
-        AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*Just seen ur status 😆*",
+        AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*How far, i just seen your status*",
 // set the auto reply massage on status reply  
 
 
@@ -59,7 +59,7 @@ LINK_WHITELIST: "youtube.com,github.com",
         STICKER_NAME: process.env.STICKER_NAME || "LUCKY-XD",
 // type sticker pack name 
 
-        CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
+        CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react  
   
       CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
@@ -77,7 +77,7 @@ OWNER_NAME: process.env.OWNER_NAME || "phantomxyz",
               DESCRIPTION: process.env.DESCRIPTION || "*© Powered By Lucky Tech Hub*",
 // add bot owner name    
 
-        READ_MESSAGE: process.env.READ_MESSAGE || "true",
+        READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
 
                  AUTO_REACT: process.env.AUTO_REACT || "false",
@@ -103,7 +103,7 @@ OWNER_NAME: process.env.OWNER_NAME || "phantomxyz",
         AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing 
   
-   READ_CMD: process.env.READ_CMD || "true",
+   READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
 
      DEV: process.env.DEV || "2348059468102",
